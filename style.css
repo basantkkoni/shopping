@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.blue{
+    width: 100%;
+    height: 60px;
+    background-color: orange;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+input{
+    width: 555px;
+    height: 40px;
+    color: #000;
+}
+.blue ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+}
+#active{
+    border: 1px solid #fff;
+    padding: 6px 16px;
+    color: blue;
+    background-color: azure;
+}
+.blue ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+                /*END*/
+
+.Products{
+    margin-top: 4px;
+    background-color: beige;
+    width: 100%;
+    height: 111px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Products img{
+    width: 80px;
+    height: 60px;
+}
+.navbar ul{
+    margin-top: -30px;
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    width: 80px;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar ul li a:hover{
+    color: blue;
+}
+.submenu{
+    display: none;
+}
+.navbar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -10px;
+}
+.navbar ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+.navbar ul li:hover .submenu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid orange;
+    text-align: left;
+}
